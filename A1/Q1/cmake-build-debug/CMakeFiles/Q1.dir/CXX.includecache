@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/UTAP/codes/A1/Q1/main.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+string
+-
+fstream
+-
+sstream
+-
+
