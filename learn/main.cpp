@@ -10,9 +10,9 @@ int main() {
 }
 int test(int h, int j ){
  Date* d = new Date;
- d->set_date(4,5,3377);
+ //d->set_date(4,5,3377);
  delete d;
  Date b;
- b.set_date(4,5,6666);
+ //b.set_date(4,5,6666);
 
 }
