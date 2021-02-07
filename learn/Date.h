@@ -2,6 +2,7 @@
 using namespace std;
 class Date {
 public:
+    Date();
     Date(int day, int month, int year);
     void set_date(int day,int month,int year);
     void print_date();
