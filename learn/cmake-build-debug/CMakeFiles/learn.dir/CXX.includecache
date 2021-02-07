@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-D:/UTAP/codes/learn/Date.h
-iostream
--
-
-D:/UTAP/codes/learn/main.cpp
-iostream
--
+D:/UTAP/codes/learn/Date.cpp
 Date.h
 D:/UTAP/codes/learn/Date.h
+
+D:/UTAP/codes/learn/Date.h
+iostream
+-
 
