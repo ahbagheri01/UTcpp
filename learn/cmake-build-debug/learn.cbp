@@ -80,9 +80,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/UTAP/codes/learn/Date.cpp">
-			<Option target="learn"/>
-		</Unit>
 		<Unit filename="D:/UTAP/codes/learn/Date.h">
 			<Option target="learn"/>
 		</Unit>

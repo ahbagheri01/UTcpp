@@ -122,33 +122,6 @@ learn/fast:
 	$(MAKE) -f CMakeFiles\learn.dir\build.make CMakeFiles/learn.dir/build
 .PHONY : learn/fast
 
-Date.obj: Date.cpp.obj
-
-.PHONY : Date.obj
-
-# target to build an object file
-Date.cpp.obj:
-	$(MAKE) -f CMakeFiles\learn.dir\build.make CMakeFiles/learn.dir/Date.cpp.obj
-.PHONY : Date.cpp.obj
-
-Date.i: Date.cpp.i
-
-.PHONY : Date.i
-
-# target to preprocess a source file
-Date.cpp.i:
-	$(MAKE) -f CMakeFiles\learn.dir\build.make CMakeFiles/learn.dir/Date.cpp.i
-.PHONY : Date.cpp.i
-
-Date.s: Date.cpp.s
-
-.PHONY : Date.s
-
-# target to generate assembly for a file
-Date.cpp.s:
-	$(MAKE) -f CMakeFiles\learn.dir\build.make CMakeFiles/learn.dir/Date.cpp.s
-.PHONY : Date.cpp.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -185,9 +158,6 @@ help:
 	@echo ... rebuild_cache
 	@echo ... learn
 	@echo ... edit_cache
-	@echo ... Date.obj
-	@echo ... Date.i
-	@echo ... Date.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
