@@ -6,9 +6,7 @@
 
 #IncludeRegexTransform: 
 
-D:/UTAP/codes/A1/Q1/main.cpp
-stdio.h
--
-stdlib.h
+D:/UTAP/codes/learn/main.cpp
+iostream
 -
 
