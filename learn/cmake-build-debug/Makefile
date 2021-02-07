@@ -122,6 +122,33 @@ learn/fast:
 	$(MAKE) -f CMakeFiles\learn.dir\build.make CMakeFiles/learn.dir/build
 .PHONY : learn/fast
 
+course.obj: course.cpp.obj
+
+.PHONY : course.obj
+
+# target to build an object file
+course.cpp.obj:
+	$(MAKE) -f CMakeFiles\learn.dir\build.make CMakeFiles/learn.dir/course.cpp.obj
+.PHONY : course.cpp.obj
+
+course.i: course.cpp.i
+
+.PHONY : course.i
+
+# target to preprocess a source file
+course.cpp.i:
+	$(MAKE) -f CMakeFiles\learn.dir\build.make CMakeFiles/learn.dir/course.cpp.i
+.PHONY : course.cpp.i
+
+course.s: course.cpp.s
+
+.PHONY : course.s
+
+# target to generate assembly for a file
+course.cpp.s:
+	$(MAKE) -f CMakeFiles\learn.dir\build.make CMakeFiles/learn.dir/course.cpp.s
+.PHONY : course.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -149,6 +176,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\learn.dir\build.make CMakeFiles/learn.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+person.obj: person.cpp.obj
+
+.PHONY : person.obj
+
+# target to build an object file
+person.cpp.obj:
+	$(MAKE) -f CMakeFiles\learn.dir\build.make CMakeFiles/learn.dir/person.cpp.obj
+.PHONY : person.cpp.obj
+
+person.i: person.cpp.i
+
+.PHONY : person.i
+
+# target to preprocess a source file
+person.cpp.i:
+	$(MAKE) -f CMakeFiles\learn.dir\build.make CMakeFiles/learn.dir/person.cpp.i
+.PHONY : person.cpp.i
+
+person.s: person.cpp.s
+
+.PHONY : person.s
+
+# target to generate assembly for a file
+person.cpp.s:
+	$(MAKE) -f CMakeFiles\learn.dir\build.make CMakeFiles/learn.dir/person.cpp.s
+.PHONY : person.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -158,9 +212,15 @@ help:
 	@echo ... rebuild_cache
 	@echo ... learn
 	@echo ... edit_cache
+	@echo ... course.obj
+	@echo ... course.i
+	@echo ... course.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... person.obj
+	@echo ... person.i
+	@echo ... person.s
 .PHONY : help
 
 
