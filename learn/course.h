@@ -11,6 +11,8 @@ using namespace std;
 class course {
 public:
     course(string name,int price);
+    string get_name(){return name;}
+    int get_price(){return price;}
 
 private:
     string name;

@@ -3,12 +3,15 @@
 //
 
 #include "person.h"
-person :: person(){
+person :: person()
+    : t("teacher.name",54)
+{
 
 }
-person :: person(int age,string name, course teacher){
-    : t("math",87)
-    t = teacher ;
+person :: person(int age,string name, course teacher)
+        : t(teacher.get_name(),teacher.get_price())
+{
+
     this->age = age;
     this->name = name;
 

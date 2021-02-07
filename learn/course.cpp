@@ -3,7 +3,7 @@
 //
 #include <iostream>
 using namespace std;
-#include "course.h";
+#include "course.h"
 course::course(string name,int price){
     this->name = name;
     this->price = price;
