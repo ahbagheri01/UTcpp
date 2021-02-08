@@ -1,17 +1,13 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
-int main() {
-
-}
 class Table{
 public:
     Table(int _width,int _height);
-   int  get_width(){ return width;}
-   int get_height(){
-       return height;
-   }
+    int  get_width(){ return width;}
+    int get_height(){
+        return height;
+    }
 
 private:
     int width;
@@ -27,6 +23,7 @@ Table::Table(int _width,int _height){
 }
 class Ball{
 public:
+    void move(int dt);
     Ball(int _x,int _y,int _vx, int _vy,Table* _table);
 
 private:
@@ -44,5 +41,24 @@ Ball::Ball(int _x,int _y,int _vx, int _vy,Table* _table){
     vx = _vx;
     vy = _vy;
     table = _table;
+
+}
+void Ball::move(int dt){
+    x += vx*dt;
+    y = vy*dt;
+    if (x<0){
+        x = -x;
+        vy = -vy;
+    }
+    if (y < 0 ){
+        ...
+    }
+    if ()
+}
+
+int main() {
+    Table t(100,50);
+    Ball b(5,10,3,2,&t);
+
 
 }
