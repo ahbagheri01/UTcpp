@@ -6,21 +6,9 @@
 
 #IncludeRegexTransform: 
 
-D:/UTAP/codes/learn/course.h
-iostream
--
-
 D:/UTAP/codes/learn/main.cpp
 iostream
 -
 vector
 -
-person.h
-D:/UTAP/codes/learn/person.h
-
-D:/UTAP/codes/learn/person.h
-iostream
--
-course.h
-D:/UTAP/codes/learn/course.h
 

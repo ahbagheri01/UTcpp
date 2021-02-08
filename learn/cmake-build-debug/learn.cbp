@@ -80,19 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/UTAP/codes/learn/course.cpp">
-			<Option target="learn"/>
-		</Unit>
-		<Unit filename="D:/UTAP/codes/learn/course.h">
-			<Option target="learn"/>
-		</Unit>
 		<Unit filename="D:/UTAP/codes/learn/main.cpp">
-			<Option target="learn"/>
-		</Unit>
-		<Unit filename="D:/UTAP/codes/learn/person.cpp">
-			<Option target="learn"/>
-		</Unit>
-		<Unit filename="D:/UTAP/codes/learn/person.h">
 			<Option target="learn"/>
 		</Unit>
 		<Unit filename="D:/UTAP/codes/learn/CMakeLists.txt">

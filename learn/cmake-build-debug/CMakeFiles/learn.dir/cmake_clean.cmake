@@ -1,7 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/learn.dir/course.cpp.obj"
   "CMakeFiles/learn.dir/main.cpp.obj"
-  "CMakeFiles/learn.dir/person.cpp.obj"
   "learn.exe"
   "learn.exe.manifest"
   "learn.pdb"
