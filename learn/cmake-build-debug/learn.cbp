@@ -83,6 +83,12 @@
 		<Unit filename="D:/UTAP/codes/learn/main.cpp">
 			<Option target="learn"/>
 		</Unit>
+		<Unit filename="D:/UTAP/codes/learn/staticmembers.cpp">
+			<Option target="learn"/>
+		</Unit>
+		<Unit filename="D:/UTAP/codes/learn/staticmembers.h">
+			<Option target="learn"/>
+		</Unit>
 		<Unit filename="D:/UTAP/codes/learn/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

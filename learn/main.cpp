@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include "staticmembers.h"
 using namespace std;
 class Table{
 public:
@@ -51,14 +52,13 @@ void Ball::move(int dt){
         vy = -vy;
     }
     if (y < 0 ){
-        ...
     }
-    if ()
 }
 
 int main() {
     Table t(100,50);
     Ball b(5,10,3,2,&t);
+    staticmembers::is_leap_year(89);
 
 
 }

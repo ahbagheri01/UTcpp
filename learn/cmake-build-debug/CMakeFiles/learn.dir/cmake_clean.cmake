@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/learn.dir/main.cpp.obj"
+  "CMakeFiles/learn.dir/staticmembers.cpp.obj"
   "learn.exe"
   "learn.exe.manifest"
   "learn.pdb"

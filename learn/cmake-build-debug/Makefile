@@ -149,6 +149,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\learn.dir\build.make CMakeFiles/learn.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+staticmembers.obj: staticmembers.cpp.obj
+
+.PHONY : staticmembers.obj
+
+# target to build an object file
+staticmembers.cpp.obj:
+	$(MAKE) -f CMakeFiles\learn.dir\build.make CMakeFiles/learn.dir/staticmembers.cpp.obj
+.PHONY : staticmembers.cpp.obj
+
+staticmembers.i: staticmembers.cpp.i
+
+.PHONY : staticmembers.i
+
+# target to preprocess a source file
+staticmembers.cpp.i:
+	$(MAKE) -f CMakeFiles\learn.dir\build.make CMakeFiles/learn.dir/staticmembers.cpp.i
+.PHONY : staticmembers.cpp.i
+
+staticmembers.s: staticmembers.cpp.s
+
+.PHONY : staticmembers.s
+
+# target to generate assembly for a file
+staticmembers.cpp.s:
+	$(MAKE) -f CMakeFiles\learn.dir\build.make CMakeFiles/learn.dir/staticmembers.cpp.s
+.PHONY : staticmembers.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,6 +188,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... staticmembers.obj
+	@echo ... staticmembers.i
+	@echo ... staticmembers.s
 .PHONY : help
 
 
