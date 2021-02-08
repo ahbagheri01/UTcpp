@@ -9,6 +9,9 @@
 class staticmembers {
 public:
     static bool is_leap_year(int year);
+
+private:
+    static int k ;
 };
 
 

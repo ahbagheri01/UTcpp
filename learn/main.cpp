@@ -54,11 +54,12 @@ void Ball::move(int dt){
     if (y < 0 ){
     }
 }
-
+int staticmembers::k;
 int main() {
     Table t(100,50);
     Ball b(5,10,3,2,&t);
     staticmembers::is_leap_year(89);
+    staticmembers::is_leap_year(67);
 
 
 }
